@@ -8,5 +8,5 @@
 /httpRequests/
 # idea settings
 /.idea/**
-/**/*.iml
+*.iml
 /**/target/**

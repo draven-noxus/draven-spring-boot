@@ -27,7 +27,7 @@
                 <swagger.version>3.0.0</swagger.version>
                 <knife4j.version>3.0.2</knife4j.version>
                 <commons.lang3.version>3.11</commons.lang3.version>-->
-        <spring-boot.version>3.0.0-M2</spring-boot.version>
+        <spring-boot.version>3.0.0-M3</spring-boot.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
@@ -94,13 +94,13 @@
     </build>
 
     <repositories>
-        <repository>
+<!--        <repository>
             <id>aliyun-repos</id>
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-        </repository>
+        </repository>-->
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
